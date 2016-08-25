@@ -7,7 +7,7 @@ _I try to use this documentation format for all my plugins and fields. Feel free
 
 Description of plugin for [Kirby](http://getkirby.com)
 
-![Screenshot]( http://placehold.it/450x150?text=your+screenshot)
+![Screenshot]( http://placehold.it/888x250?text=Add+screenshots+whenever+possible)
 
 ## Installation
 
@@ -16,20 +16,31 @@ Description of plugin for [Kirby](http://getkirby.com)
 If you are using the [Kirby CLI](https://github.com/getkirby/cli) you can install this plugin by running the following command in your shell from the root folder of your Kirby installation:
 
 ```
-kirby plugin:install Thiousi/kirby-xxxxxx
+kirby plugin:install username/plugin-name
 ```
 
 ### 2. Manual
-[Download this archive](https://github.com/Thiousi/kirby-plugin-starterkit/archive/master.zip), extract it and rename it to `xxxxxxx`. Copy the folder to your `site/plugins` folder.
+[Download this archive](https://github.com/Thiousi/kirby-plugin-starterkit/archive/master.zip), extract it and rename it to `plugin-name`. Copy the folder to your `site/plugins` folder.
 
 ### 3. Git Submodule
 If you know your way around git, you can download this as a submodule:
 
 ```
-git submodule add https://github.com/Thiousi/kirby-xxxxxx/ site/plugins/xxxxxxx
+git submodule add https://github.com/username/plugin-name/ site/plugins/plugin-name
 ```
 
 ## Usage
+Describe what the user should do to make the plugin or field work...
+
+Add to your blueprint the following:
+
+```
+  tinyurl:
+    label: Tiny URL
+    type: tinyurl
+    help: Click on field to copy to clipboard
+    width: 1/2
+```
 
 
 ## To-do
@@ -41,3 +52,7 @@ Don't forget to give credit where it's due!
 
 ## License
 MIT
+
+## Changelog
+### 1.0.0
+- Initialial release
