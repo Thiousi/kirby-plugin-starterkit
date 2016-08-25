@@ -1,11 +1,13 @@
-# PLugin Name
+_I try to use this documentation format for all my plugins and fields. Feel free to use it as well. All my plugins and fields (from now on) are compatible with Kirby CLI and git submodules._
+
+# Plugin Name
 ![Version](https://img.shields.io/badge/version-1.0.0-green.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Kirby Version](https://img.shields.io/badge/Kirby-2.3%2B-red.svg)
 
 Description of plugin for [Kirby](http://getkirby.com)
 
-![Screenshot](screenshot.jpg)
+![Screenshot]( http://placehold.it/450x150?text=your+screenshot)
 
 ## Installation
 
