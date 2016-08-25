@@ -20,7 +20,7 @@ kirby plugin:install Thiousi/kirby-xxxxxx
 ```
 
 ### 2. Manual
-Download this archive, extract it and rename it to `xxxxxxx`. Copy the folder to your `site/plugins` folder.
+[Download this archive(https://github.com/Thiousi/kirby-plugin-starterkit/archive/master.zip), extract it and rename it to `xxxxxxx`. Copy the folder to your `site/plugins` folder.
 
 ### 3. Git Submodule
 If you know your way around git, you can download this as a submodule:
@@ -33,9 +33,11 @@ git submodule add https://github.com/Thiousi/kirby-xxxxxx/ site/plugins/xxxxxxx
 
 
 ## To-do
-- [ ]
+- [ ] This is a to-do item. I try to create to-do for future features as well as for blocking bugs
+- [X] ~~This is a completed to-do with strike-through text.~~
 
 ## Credits
+Don't forget to give credit where it's due!
 
 ## License
 MIT
